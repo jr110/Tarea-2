@@ -23,7 +23,8 @@ Un constructor no puede ser usado en estructuras(struct).
 
 + Escribe un programa donde utilices this para obtener acceso a miembros con el fin de evitar ambigüedades con nombres similares.
 + Escribe un programa donde se utilice this como parámetro.
-#### Estos ejercisios se encontraran en sus respectivos folders dentro del repositorio.
+
+#### Estos ejercisios se encontraran en sus respectivos folders dentro del repositorio.(https://github.com/jr110/Tarea-2/blob/master/Programas%20Tarea%202/TareaThis.cs)
 ## 2.4 Métodos: declaración, mensajes, paso de parámetros, retorno de valores.
 
 ### Lee y escribe un resumen con tus palabras de los siguientes documentos: 
@@ -36,11 +37,16 @@ Un constructor no puede ser usado en estructuras(struct).
 
   +     https://msdn.microsoft.com/es-es/library/14akc2c7.aspx
   
- ## Parámetros de métodos
+  ## Parámetros de métodos
  Los parametros declarados para un metodo realizan la operacion para las que fueron llamados y pieden los datos que estos almacenan al terminar la operacion del llamado si no se declaran con palabras claves apropiadas.
  Estas palabras son: 
- + **Params** : lo que hace es que el parametro pueda tomar un numero variable de argumentos. 
+ + **Params** : lo que hace es que el parametro pueda tomar un numero variable de argumentos, solo aplica a matrices unidimencionales. 
  + **in** : Este parametro es una referencia y se ejecuta o lee cuando se hace la llamada del metodo.
  + **ref** :Este, al igual que in, es una referencia, y este es mas flexible al poderse editar y modificar por el metodo llamada.
  + **out** : Este es igual es una referencia y se modifica unicamente cuando el metodo es llamada.
   cabe recalcar que estas palabras clave se declaran como parametros en un metodo.
+  
+ ## 2.5 Constructores y destructores: declaración, uso y aplicaciones.
+ Los constructores son basicamente metodos de una clase,su funcion es inicializar estos solo se ejecutan cuando se requieren crear objetos, estos constructores se llaman igual que su clase. puede haber diferentes tipo de constructores como lo seria del tipo struct, estos son iguales a los constructores normales solo que estos no pueden contener un constructor predeterminado ya que el compilador otorga uno de manera automatica. solo las estructuras y las clases pueden definir constructores que acepten parametros. Un constructor puede invocar a otro mediante la palabra clave this.
+
+
