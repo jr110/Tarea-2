@@ -48,5 +48,28 @@ Un constructor no puede ser usado en estructuras(struct).
   
  ## 2.5 Constructores y destructores: declaración, uso y aplicaciones.
  Los constructores son basicamente metodos de una clase,su funcion es inicializar estos solo se ejecutan cuando se requieren crear objetos, estos constructores se llaman igual que su clase. puede haber diferentes tipo de constructores como lo seria del tipo struct, estos son iguales a los constructores normales solo que estos no pueden contener un constructor predeterminado ya que el compilador otorga uno de manera automatica. solo las estructuras y las clases pueden definir constructores que acepten parametros. Un constructor puede invocar a otro mediante la palabra clave this.
+ 
+  ## 2.7 Sobrecarga de operadores: Concepto y utilidad, operadores unarios y binarios.
+
+  ### Implementa una clase llamada Dado, la cual es una abstracción de los dados de algún juego.
+
+  ### Debe de tener por lo menos las siguientes propiedades:
+
++ valor
++ color
+    ### La clase debe contar por lo menos con:
+
+      + Dos constructores sobrecargados.
+
+      + Los operadores ==, <, > sobrecargados.
+
+      + El uso de la palabra clave this.
+
+   
+
+   ### Utiliza tu clase dentro del método Main de tu programa, creando tres dados, arrojándolos e imprimiendo el mejor de ellos 
+
+    ### o si alguno es igual.
+    ## Trabajo en repositorio
 
 
